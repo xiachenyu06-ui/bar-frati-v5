@@ -11,7 +11,7 @@ const dbPath=path.join(dir,'data.json');
 const vapidPublic=process.env.VAPID_PUBLIC_KEY||'';
 const vapidPrivate=process.env.VAPID_PRIVATE_KEY||'';
 const pushReady=!!(vapidPublic&&vapidPrivate);
-if(pushReady)webpush.setVapidDetails('mailto:admin@bar-frati.example',vapidPublic,vapidPrivate);
+if(pushReady)webpush.setVapidDetails('mailto:xiachenyu06@gmail.com',vapidPublic,vapidPrivate);
 let subscriptions=[];
 const subsPath=path.join(dir,'subscriptions.json');
 try{subscriptions=JSON.parse(fs.readFileSync(subsPath,'utf8'));if(!Array.isArray(subscriptions))subscriptions=[]}catch{}
