@@ -1,6 +1,0 @@
-在 Render → bar-frati-new → Environment 添加两个变量（不要上传这个文件到 GitHub）：
-
-VAPID_PUBLIC_KEY=BGRpQEBrR8A_NQ6xq1HgwuJev0jdjKJI_QCqHdCGVquHOElVxSKMqAAkeHHTp-FsF79_k2Z2wWsFG2FQPG4YfKU
-VAPID_PRIVATE_KEY=yJBtg_ztiJ4fWsyz2mukB_myAB_qJI73jfeHjFCiwWs
-
-注意：私钥请保密，不要放到公开的 GitHub 仓库。
