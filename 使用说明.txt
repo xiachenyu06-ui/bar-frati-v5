@@ -1,0 +1,9 @@
+BAR FRATI V5
+1. GitHub 仓库根目录替换 server.js 和 package.json。
+2. public 文件夹替换 index.html，新增 sw.js、manifest.webmanifest、icon.svg。
+3. 不要把 Render_推送密钥_请保密.txt 上传 GitHub。
+4. Render → Environment 添加密钥文件中的 VAPID_PUBLIC_KEY 和 VAPID_PRIVATE_KEY。保存并等待部署 Live。
+5. iPhone iOS 16.4 或更新：Safari 打开 https://bar-frati-new.onrender.com/#kitchen → 分享 → 添加到主屏幕 → 从桌面图标打开 → 点击 🔔 开启锁屏通知 → 允许。
+6. 从前台发送一笔测试订单，锁屏检查是否收到通知。
+注意：Render Free 服务器休眠/重启、网络断开等可能导致延迟或订阅丢失。当前订单和订阅仍存在本地 JSON 文件，重启/重新部署可能清空；正式营业需要持久数据库。
+安全提示：目前网站没有登录验证，任何知道链接的人可能查看、修改、删除订单及订阅通知，正式使用前应增加账号验证。

@@ -1,0 +1,1 @@
+{"name": "BAR FRATI 后厨点餐", "short_name": "BAR FRATI", "start_url": "/#kitchen", "scope": "/", "display": "standalone", "background_color": "#152b48", "theme_color": "#152b48", "icons": [{"src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}]}
